@@ -6,8 +6,6 @@ This is my personal portfolio. I built this to show off my skills as I learn to 
 
 ## Usage
 
-
-
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
