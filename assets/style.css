@@ -1,42 +1,114 @@
-:root{
-    --blue-text: #a0cffb;
+:root {
+  --blue-text: #a0cffb;
+  --dark-blue-text: #1b406d;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
-    background-color: #49545e;
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  background-color: #49545e;
 }
-.left-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.left-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.header img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    padding: 5px;
+.header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 5px;
 }
-.header h1{
-    color: var(--blue-text);
+.header h1 {
+  color: var(--blue-text);
 }
-.header nav{
-    padding: 5px;
-    margin: 10px;
-    float: right;
+.header nav {
+  padding: 5px;
+  margin: 10px;
+  float: right;
 }
 
-.header nav ul li{
-    display: inline-block;
-    list-style: none;
-    font-size: 20px;
+.header nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 20px;
 }
-.header a{
-    color: var(--blue-text);
+.header a {
+  color: var(--blue-text);
+}
+.banner {
+  height: 80px;
+  width: 100%;
+  background-color: #b0ab6b;
+}
+.banner h3 {
+  position: relative;
+  top: 50px;
+  left: 1290px;
+  color: var(--dark-blue-text);
+}
+.bottom {
+  background-color: #c8ced1;
+}
+.about-me {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.about-me h2 {
+  color: var(--dark-blue-text);
+  font-size: 48px;
+}
+.about-me p {
+  font-size: 18px;
+  color: var(--dark-blue-text);
+}
+.work {
+  display: flex;
+  height: 200px;
+  padding: 10px;
+}
+.work h2 {
+  color: var(--dark-blue-text);
+  font-size: 48px;
+}
+.work h3 {
+  padding: 20px;
+  margin-right: 300px;
+  color: var(--dark-blue-text);
+}
+.work p{
+    position: relative;
+    right: 410px;
+    top: 50px;
+    color: var(--dark-blue-text);
+}
+.work img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 410px;
+    top: 50px;
+}
+.resume{
+    height: 200px;
+}
+.resume h2{
+    color: var(--dark-blue-text);
+    font-size: 48px; 
+    padding: 10px;
+}
+.footer{
+    height: 200px;
+}
+.footer h2{
+    color: var(--dark-blue-text);
+    font-size: 48px; 
+    padding: 10px;
 }
