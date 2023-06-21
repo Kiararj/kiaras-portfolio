@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .header {
   display: flex;
@@ -45,13 +46,15 @@
   height: 80px;
   width: 100%;
   background-color: #b0ab6b;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .banner h3 {
-  position: relative;
-  top: 50px;
-  left: 1290px;
   color: var(--dark-blue-text);
+  padding: 5px;
 }
+/*
 .bottom {
   background-color: #c8ced1;
 }
@@ -64,10 +67,15 @@
 .about-me h2 {
   color: var(--dark-blue-text);
   font-size: 48px;
+  margin-left: 100px;
 }
 .about-me p {
   font-size: 18px;
   color: var(--dark-blue-text);
+}
+.title-right-border{
+    border-right: 6px solid var(--dark-blue-text);
+  height: 100px;  
 }
 .work {
   display: flex;
@@ -77,24 +85,22 @@
 .work h2 {
   color: var(--dark-blue-text);
   font-size: 48px;
+  margin-left: 100px;
 }
 .work h3 {
   padding: 20px;
   margin-right: 300px;
-  color: var(--dark-blue-text);
+  color: var(--dark-blue-text);  
 }
 .work p{
-    position: relative;
-    right: 410px;
-    top: 50px;
     color: var(--dark-blue-text);
 }
 .work img{
     height: 50px;
     width: 50px;
-    position: relative;
-    right: 410px;
-    top: 50px;
+}
+.work-section{
+    margin: 20px;
 }
 .resume{
     height: 200px;
@@ -103,12 +109,88 @@
     color: var(--dark-blue-text);
     font-size: 48px; 
     padding: 10px;
+    margin-left: 100px;
 }
 .footer{
     height: 200px;
+    display: flex;;
 }
 .footer h2{
     color: var(--dark-blue-text);
     font-size: 48px; 
     padding: 10px;
+    margin-left: 100px;
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+}
+*/
+main{
+  width: 88%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+section>h2{
+  flex-basis: 23%;
+  border-right: 3px solid darkblue;
+  text-align: right;
+  padding: 20px;
+  font-size: 36px;
+}
+section>div{
+  flex-basis: 77%;
+  padding-left: 10px;
+}
+.work-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work-section a{
+  display: flex;
+  border: 5px solid darkblue;
+  min-height: 150px;
+  max-height: 150px;
+  margin: 0.5em;
+  flex-basis: calc(50% - 1em);
+  align-items: flex-end;
+  padding-bottom: 20px;
+  color: lightblue;
+  background-size: cover;
+}
+.work-section a:first-child{
+  flex-basis: 100%;
+  min-height: 320px;
+}
+.work-section a div{
+  background-color: aqua;
+  padding: 8px 10px;
+}
+#project-1{
+  background-image: url("./horiseon.png");
+
+}
+#project-2{
+  background-image: url("./project-2.jpeg");
+}
+#project-3{
+  background-image: url("./project-3.jpeg");
+}
+#project-4{
+  background-image: url("./project-4.jpeg");
+}
+#project-5{
+  background-image: url("./project-5.jpeg");
+}
+.contact-ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
 }
