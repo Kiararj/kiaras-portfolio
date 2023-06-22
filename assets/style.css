@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header {
+header {
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -19,27 +19,28 @@
   flex-direction: row;
   align-items: center;
 }
-.header img {
+header img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   padding: 5px;
 }
-.header h1 {
+header h1 {
   color: var(--blue-text);
 }
-.header nav {
+header nav {
   padding: 5px;
   margin: 10px;
   float: right;
 }
 
-.header nav ul li {
+header nav ul li {
   display: inline-block;
   list-style: none;
   font-size: 20px;
+  padding: 1px;
 }
-.header a {
+header a {
   color: var(--blue-text);
 }
 .banner {
@@ -54,78 +55,9 @@
   color: var(--dark-blue-text);
   padding: 5px;
 }
-/*
-.bottom {
+body{
   background-color: #c8ced1;
 }
-.about-me {
-  height: 200px;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
-.about-me h2 {
-  color: var(--dark-blue-text);
-  font-size: 48px;
-  margin-left: 100px;
-}
-.about-me p {
-  font-size: 18px;
-  color: var(--dark-blue-text);
-}
-.title-right-border{
-    border-right: 6px solid var(--dark-blue-text);
-  height: 100px;  
-}
-.work {
-  display: flex;
-  height: 200px;
-  padding: 10px;
-}
-.work h2 {
-  color: var(--dark-blue-text);
-  font-size: 48px;
-  margin-left: 100px;
-}
-.work h3 {
-  padding: 20px;
-  margin-right: 300px;
-  color: var(--dark-blue-text);  
-}
-.work p{
-    color: var(--dark-blue-text);
-}
-.work img{
-    height: 50px;
-    width: 50px;
-}
-.work-section{
-    margin: 20px;
-}
-.resume{
-    height: 200px;
-}
-.resume h2{
-    color: var(--dark-blue-text);
-    font-size: 48px; 
-    padding: 10px;
-    margin-left: 100px;
-}
-.footer{
-    height: 200px;
-    display: flex;;
-}
-.footer h2{
-    color: var(--dark-blue-text);
-    font-size: 48px; 
-    padding: 10px;
-    margin-left: 100px;
-}
-.footer ul{
-    display: flex;
-    list-style: none;
-}
-*/
 main{
   width: 88%;
   margin: 0 auto;
@@ -143,10 +75,15 @@ section>h2{
   text-align: right;
   padding: 20px;
   font-size: 36px;
+  color: var(--dark-blue-text);
 }
 section>div{
   flex-basis: 77%;
   padding-left: 10px;
+}
+div>p{
+  font-size: 16px;
+  color: var(--dark-blue-text);
 }
 .work-section{
   display: flex;
@@ -175,19 +112,18 @@ section>div{
 }
 #project-1{
   background-image: url("./horiseon.png");
-
 }
 #project-2{
-  background-image: url("./project-2.jpeg");
+  background-image: url("./coming-soon-project.jpg");
 }
 #project-3{
-  background-image: url("./project-3.jpeg");
+  background-image: url("./coming-soon-project.jpg");
 }
 #project-4{
-  background-image: url("./project-4.jpeg");
+  background-image: url("./coming-soon-project.jpg");
 }
 #project-5{
-  background-image: url("./project-5.jpeg");
+  background-image: url("./coming-soon-project.jpg");
 }
 .contact-ul{
   display: flex;
