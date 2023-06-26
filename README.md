@@ -1,20 +1,13 @@
 # Kiara Johnson's Portfolio
 
+https://kiararj.github.io/portfolio/
 ## Description
 
 This is my personal portfolio. I built this to show off my skills as I learn to become a web developer. 
 
-## Usage
-
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## Features
+Received help from tutor, Meg Meyers lines 58 - 126 with styling and formatting headers, right content, and work section.
 
 
 
