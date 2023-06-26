@@ -1,6 +1,7 @@
 :root {
   --blue-text: #a0cffb;
   --dark-blue-text: #1b406d;
+  --dark-blue-border: darkblue;
 }
 * {
   margin: 0;
@@ -33,7 +34,6 @@ header nav {
   margin: 10px;
   float: right;
 }
-
 header nav ul li {
   display: inline-block;
   list-style: none;
@@ -71,7 +71,7 @@ section{
 }
 section>h2{
   flex-basis: 23%;
-  border-right: 3px solid darkblue;
+  border-right: 3px solid var(--dark-blue-border);
   text-align: right;
   padding: 20px;
   font-size: 36px;
@@ -92,14 +92,14 @@ div>p{
 }
 .work-section a{
   display: flex;
-  border: 5px solid darkblue;
-  min-height: 150px;
-  max-height: 150px;
+  border: 5px solid var(--dark-blue-border);
+  min-height: 200px;
+  max-height: 200px;
   margin: 0.5em;
   flex-basis: calc(50% - 1em);
   align-items: flex-end;
   padding-bottom: 20px;
-  color: lightblue;
+  color: var(--blue-text);
   background-size: cover;
 }
 .work-section a:first-child{
@@ -107,26 +107,34 @@ div>p{
   min-height: 320px;
 }
 .work-section a div{
-  background-color: aqua;
+  background-color: var(--dark-blue-border);
   padding: 8px 10px;
 }
 #project-1{
   background-image: url("./horiseon.png");
 }
 #project-2{
-  background-image: url("./coming-soon-project.jpg");
+  background-image: url("./coming-soon.jpg");
 }
 #project-3{
-  background-image: url("./coming-soon-project.jpg");
+  background-image: url("./coming-soon.jpg");
 }
 #project-4{
-  background-image: url("./coming-soon-project.jpg");
+  background-image: url("./coming-soon.jpg");
 }
 #project-5{
-  background-image: url("./coming-soon-project.jpg");
+  background-image: url("./coming-soon.jpg");
 }
 .contact-ul{
   display: flex;
   list-style: none;
   justify-content: space-around;
+}
+
+/* Large smartphones, small smartphones */
+@media screen and (max-width: 768px) {
+section{
+  display: flex;
+  flex-wrap: nowrap;
+}
 }
