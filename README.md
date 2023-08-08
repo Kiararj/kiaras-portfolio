@@ -1,6 +1,6 @@
 # Kiara Johnson's Portfolio
 
-https://kiararj.github.io/portfolio/
+https://kiararj.github.io/kiaras-portfolio/
 
 ![Alt text](/assets/screenshot-one.png "Screenshot of website")
 
